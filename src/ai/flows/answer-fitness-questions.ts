@@ -71,11 +71,18 @@ const answerFitnessQuestionsFlow = ai.defineFlow(
   async input => {
     const {output} = await prompt(input);
 
-    // Determine if a tool was called and handle the response accordingly
+    // Check if the output is an object with an 'answer' property (from answerDirectlyTool)
+    if (typeof output === 'object' && output !== null && 'answer' in output && typeof output.answer === 'string') {
+      return { answer: output.answer };
+    }
+
+    // Check if the output is the clarification message
     if (output === 'Clarification needed.') {
       return { answer: 'Please provide more details so I can assist you better.' };
-    } else {
-      return { answer: output! };
     }
+
+    // If neither of the above, handle as an unexpected response
+    console.error('Unexpected model response format:', output);
+    return { answer: 'Sorry, I received an unexpected response from the AI.' };
   }
 );

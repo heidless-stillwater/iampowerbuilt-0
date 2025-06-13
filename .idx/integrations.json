@@ -1,0 +1,9 @@
+{
+  "cloud_run_deploy": {
+    "region": "europe-west2",
+    "sourceFlag": "--source .",
+    "allowUnauthenticatedInvocationsFlag": "--allow-unauthenticated"
+  },
+  "gemini_api": {},
+  "secrets_manager": {}
+}
