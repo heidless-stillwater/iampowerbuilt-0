@@ -20,8 +20,8 @@ export function NavigationBar() {
           <Image
             src="https://storage.googleapis.com/paula-personal-trainer-0/logo-0-shadow.png" 
             alt="Logo"
-            width={120}
-            height={40}
+            width={150}
+            height={50}
             className="rounded"
             data-ai-hint="logo brand"
           />
