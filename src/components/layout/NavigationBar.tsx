@@ -18,10 +18,10 @@ export function NavigationBar() {
       <div className="container mx-auto flex items-center justify-between h-20 w-[95%] px-4">
         <Link href="/" passHref className="flex items-center gap-3">
           <Image
-            src="https://storage.googleapis.com/paula-personal-trainer-0/logo-0-shadow.png" 
+            src="https://storage.googleapis.com/paula-personal-trainer-0/image-0-shadow_50x61.png"
             alt="Logo"
-            width={150}
-            height={50}
+            width={50}
+            height={61}
             className="rounded"
             data-ai-hint="logo brand"
           />
