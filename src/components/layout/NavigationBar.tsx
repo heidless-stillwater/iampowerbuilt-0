@@ -40,6 +40,14 @@ export function NavigationBar() {
           </Button>
           <Button
             variant="link"
+            onClick={() => scrollToSection("ai-assistant")}
+            className="text-foreground hover:text-primary transition-colors duration-300"
+            style={{ fontSize: '20px' }}
+          >
+            AI Fitness Assistant
+          </Button>
+          <Button
+            variant="link"
             onClick={() => scrollToSection("contact")}
             className="text-foreground hover:text-primary transition-colors duration-300"
             style={{ fontSize: '20px' }}
