@@ -18,7 +18,7 @@ export function NavigationBar() {
       <div className="container mx-auto flex items-center justify-between h-20 w-[95%] px-4">
         <Link href="/" passHref className="flex items-center gap-3">
           <Image
-            src="https://storage.googleapis.com/paula-personal-trainer-0/image-0-shadow_50x61.png"
+            src="https://storage.googleapis.com/c_iampowerbuilt_bucket/image-0-shadow_live.png"
             alt="Logo"
             width={50}
             height={61}

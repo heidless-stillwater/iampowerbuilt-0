@@ -5,7 +5,7 @@ export function HeroSection() {
   return (
     <section id="home" className="relative h-screen w-full flex items-center justify-center text-center">
       <Image
-        src="https://storage.googleapis.com/paula-personal-trainer-0/personal-training-0-live.jpg"
+        src="https://storage.googleapis.com/c_iampowerbuilt_bucket/personal-training-0-live.jpg"
         alt="Personal Training Session"
         layout="fill"
         objectFit="cover"

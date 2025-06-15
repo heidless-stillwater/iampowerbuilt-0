@@ -11,7 +11,7 @@ export function AboutMeSection() {
           <div className="md:flex">
             <div className="md:w-1/3 relative min-h-[300px] md:min-h-0">
               <Image
-                src="https://storage.googleapis.com/paula-personal-trainer-0/trainer-headshot-0-live.jpg"
+                src="https://storage.googleapis.com/c_iampowerbuilt_bucket/trainer-headshot-0-live.jpg"
                 alt="Trainer Headshot"
                 layout="fill"
                 objectFit="cover"
